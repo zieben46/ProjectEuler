@@ -9,14 +9,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class problem_22 {
+public class Problem_22 {
 	private List<String> names = new ArrayList<>();
 
 	public static void main(String[] args) {
-		new problem_22();
+		new Problem_22();
 	}
 
-	public problem_22() {
+	public Problem_22() {
 		names = getNames();
 		names.sort((a, b) -> a.compareTo(b));
 					

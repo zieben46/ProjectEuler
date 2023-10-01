@@ -4,13 +4,13 @@ package problems;
 
 import java.util.stream.*;
 
-public class problem_21 {
+public class Problem_21 {
 
 	public static void main(String[] args) {
-		new problem_21();
+		new Problem_21();
 	}
 
-	public problem_21() {
+	public Problem_21() {
 		System.out.println(
 		);
 		

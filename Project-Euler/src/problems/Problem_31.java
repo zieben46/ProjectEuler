@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class problem_31 {
+public class Problem_31 {
 	private static final List<Integer> currency = Arrays.asList(1, 2, 5, 10, 20, 50, 100, 200);
 	private static Set<int[]> allPossibilities = new HashSet<int[]>();
 
