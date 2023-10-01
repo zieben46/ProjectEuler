@@ -1,4 +1,22 @@
+//Didn't attempt this problem.   Unique solution found on internet.
 
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
+//COPIED FROM INTERNET
 
 //In the card game poker, a hand consists of five cards and are ranked, from lowest to highest, in the following way:
 //
@@ -109,7 +127,7 @@ public class Problem_54 {
 	private static List<String> getCards() {
 		try {
 			
-			Stream<String> stream = Files.lines(Paths.get("C:\\Users\\Administrator\\Desktop\\prject euler\\temp\\project54Text.txt"));
+			Stream<String> stream = Files.lines(Paths.get("C:\\Users\\ziebe\\OneDrive\\Desktop\\Nicks Stuff\\project euler\\temp\\project54Text.txt"));
 			ArrayList<String> textFile = (ArrayList<String>) stream.collect(Collectors.toList());
 			
 			stream.close();

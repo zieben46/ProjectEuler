@@ -11,7 +11,7 @@ public class Problem_14 {
 		int answer = 0;
 		int realanswer=0;
 	for (int i=1000000;i>=1;i--) {
-			System.out.print(i);
+//			System.out.println(i);
 			x=i;
 			while (x>1) {
 				x=getValue(x);
@@ -27,8 +27,6 @@ public class Problem_14 {
 		System.out.println(realanswer+"IS THE ANSWER!");
 		
 	}
-
-
 
 
 	public static int getValue(int input){

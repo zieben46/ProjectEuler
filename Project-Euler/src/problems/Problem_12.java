@@ -11,9 +11,9 @@ public class Problem_12 {
 			i++;
 
 			divisorCounter=divisorCount(nthTri(i));
-			System.out.println("Ith iteration: "+i);
-			System.out.println("Ith Triangle " +nthTri(i));
-			System.out.println("Ith divisor counter : "+divisorCounter);
+//			System.out.println("Ith iteration: "+i);
+//			System.out.println("Ith Triangle " +nthTri(i));
+//			System.out.println("Ith divisor counter : "+divisorCounter);
 		}
 		
 		System.out.println("Answer is: "+nthTri(i) );

@@ -19,11 +19,9 @@ public class Problem_36 {
 
 
 public static void main(String[] args) {
-			
-			System.out.println(Integer.toString(9, 3));
-			
+		
 			System.out.println(
-					IntStream.range(1, 10000)
+					IntStream.range(1, 1000000)
 					         .parallel()
 					         .filter(Problem_36::isPalindromicBase2)
 					         .filter(Problem_36::isPalindromicBase10)

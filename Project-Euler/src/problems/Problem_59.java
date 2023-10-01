@@ -51,7 +51,7 @@ public class Problem_59 {
 
 	private static List<String> getFile() {
 		try {
-			Stream<String> stream = Files.lines(Paths.get("C:\\Users\\Administrator\\Desktop\\prject euler\\temp\\project59Text.txt"));
+			Stream<String> stream = Files.lines(Paths.get("C:\\Users\\ziebe\\OneDrive\\Desktop\\Nicks Stuff\\project euler\\temp\\project59Text.txt"));
 			ArrayList<String> textFile = (ArrayList<String>) stream.collect(Collectors.toList());
 			return Arrays.asList(textFile.get(0).replaceAll("\"","").split(","));
 		} catch (IOException e) {

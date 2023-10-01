@@ -120,10 +120,6 @@
 //How many continued fractions for N = 10000 have an odd period?
 
 
-
-
-
-
 package problems;
 import java.util.Arrays;
 import java.util.HashSet;
