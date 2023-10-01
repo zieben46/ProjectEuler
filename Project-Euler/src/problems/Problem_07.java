@@ -3,7 +3,7 @@ package problems;
 
 //10001th prime number
 
-public class Problem_7 {
+public class Problem_07 {
 	public static void main(String[] args) {
 		int i=2;
 		int counter=0;

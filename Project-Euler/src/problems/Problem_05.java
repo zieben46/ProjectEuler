@@ -2,7 +2,7 @@ package problems;
 
 //finds the lowest integer evenly divisable by numbers 1-20 
 
-public class Problem_5 {
+public class Problem_05 {
 	public static void main(String[] args) {
 		int test=21;
 		int i=2;

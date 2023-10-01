@@ -1,6 +1,6 @@
 package problems;
 
-public class problem_3 {
+public class Problem_03 {
 	public static void main(String[] args) {
 		System.out.println(breakdown(600851475143L));
 	}

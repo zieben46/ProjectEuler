@@ -1,6 +1,6 @@
 package problems;
 
-public class problem_2 {
+public class Problem_02 {
 
 	
 	public static void main(String[] args) {
